@@ -3,6 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Rodrigo Alonso</Authors>
+    <Description>Console WriteLine con colores y tipos de log</Description>
+    <PackageIcon>consoleUI-logo.ico</PackageIcon>
+    <RepositoryUrl>https://github.com/rodrigoalonso91/ConsoleUI</RepositoryUrl>
+    <ApplicationIcon>consoleUI-logo.ico</ApplicationIcon>
+    <Title>ConsoleUI</Title>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="consoleUI-logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon\consoleUI-logo.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
