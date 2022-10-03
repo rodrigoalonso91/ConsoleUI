@@ -43,5 +43,12 @@ namespace ConsoleUI
             Console.WriteLine($"========== {text} ==========");
             Console.ResetColor();
         }
+
+        public static void WriteCustom(string prefix, string text, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.WriteLine($"##[{prefix}] {text}");
+            Console.ResetColor();
+        }
     }
 }
