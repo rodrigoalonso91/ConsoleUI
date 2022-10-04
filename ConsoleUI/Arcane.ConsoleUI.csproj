@@ -9,7 +9,7 @@
     <PackageIcon>consoleUI-logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/rodrigoalonso91/ConsoleUI</RepositoryUrl>
     <Title>ConsoleUI</Title>
-    <PackageId>ralonso.$(AssemblyName)</PackageId>
+    <PackageId>$(AssemblyName)</PackageId>
     <PackageLicenseFile>license.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
