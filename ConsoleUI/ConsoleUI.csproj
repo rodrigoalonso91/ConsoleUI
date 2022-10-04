@@ -16,11 +16,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\license.txt">
+    <None Include="..\icon\consoleUI-logo.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="consoleUI-logo.png">
+    <None Include="..\license.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
