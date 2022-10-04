@@ -8,12 +8,15 @@
     <Description>Console.WriteLine with colors and log types.</Description>
     <PackageIcon>consoleUI-logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/rodrigoalonso91/ConsoleUI</RepositoryUrl>
-    <ApplicationIcon>consoleUI-logo.ico</ApplicationIcon>
     <Title>ConsoleUI</Title>
     <PackageId>ralonso.$(AssemblyName)</PackageId>
     <PackageLicenseFile>license.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="consoleUI-logo.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\icon\consoleUI-logo.png">
