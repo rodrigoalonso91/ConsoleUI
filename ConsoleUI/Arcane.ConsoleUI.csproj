@@ -1,8 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFrameworks>net35;net48;net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Rodrigo Alonso</Authors>
     <Description>Console.WriteLine with colors and log types.</Description>
@@ -12,12 +11,8 @@
     <PackageId>$(AssemblyName)</PackageId>
     <PackageLicenseFile>license.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include="consoleUI-logo.png" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\icon\consoleUI-logo.png">
